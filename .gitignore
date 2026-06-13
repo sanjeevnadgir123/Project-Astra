@@ -1,0 +1,25 @@
+# Python Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node Modules & Frontend Builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Face Recognizer trained models
+backend/vision/face_model.yml
+
+# IDE files
+.vscode/
+.idea/
+.gemini/
+.DS_Store
